@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://full-stack-restaurant-reservation.onrender.com/api/v1/reservation/send",
+        "https://full-stack-restaurant-reservation-application-r6gaf4k5s.vercel.app/api/v1/reservation/send",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
